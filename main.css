@@ -1,0 +1,96 @@
+body {
+background-color:white;
+font-family: 'imprima';
+font-size: 20px;
+color:#000;
+line-height:18px;
+}
+@font-face {
+  font-family: 'Imprima';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Imprima'), local('Imprima-Regular'), url(http://themes.googleusercontent.com/static/fonts/imprima/v1/Lw4J4XiH21tNmX0DzARuSA.woff) format('woff');
+}
+a:link, a:visited {
+text-decoration:none;
+color: #fff;
+}
+/* SCROLLBAR
+----------------------------------------------- */
+::-webkit-scrollbar {
+width:8px;
+height:auto;
+}
+::-webkit-scrollbar-thumb{
+background:#fff;
+}
+/* UNDERLINE
+----------------------------------------------- */
+u{
+text-decoration: none;
+border-bottom: #FEBBD6 2px solid;
+}
+/* BACKSIDE
+----------------------------------------------- */
+.back-side{
+background-color:white;
+}
+/* SIDEBAR TITLE
+----------------------------------------------- */
+@font-face {
+font-family: 'Pathway Gothic One';
+font-style: normal;
+font-weight: 400;
+src: local('Pathway Gothic One'), local('PathwayGothicOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/pathwaygothicone/v1/Lqv9ztoTUV8Q0FmQZzPqaBfSZ9PF2sGs8WIylam6T2Y.woff) format('woff');
+}
+/* NAVIGATION
+----------------------------------------------- */
+  .tablo{
+  border:1px black solid;
+    padding:2px;
+    background:black;
+    border-radius:10%;
+    letter-spacing:2px;
+    font-size: 18px;
+  }
+  a.navi{
+  display:inline-block;
+  -webkit-transition:All 0.8s ease ;
+  -moz-transition:All 0.84s ease ;
+  -o-transition:All 0.8s ease ;
+  padding:5px;
+  width:100px;
+  text-decoration:none;
+  font-family:Montserrat;
+  font-weight: bold;
+  font-size:13px;
+  text-transform:uppercase;
+  text-align:center;
+  border-radius:8px 10px 10px 10px;
+  border-left:4px solid white;
+  }
+  a.navi:hover{
+  color: red;
+  border-left:4px solid red;
+  }
+  /* Preloader */
+  #preloader {
+      position: fixed;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      background-color:#fff; /* change if the mask should have another color then white */
+      z-index:99;
+  }
+  #status {
+      width:200px;
+      height:200px;
+      position:absolute;
+      left:50%;
+      top:50%;
+      background-image:url(img/loading.gif); /* path to your loading animation */
+      background-repeat:no-repeat;
+      background-position:center;
+      margin:-100px 0 0 -100px;
+  }
