@@ -1,15 +1,15 @@
 body {
 background-color:white;
-font-family: 'imprima';
+font-family: calibri;
 font-size: 20px;
 color:#000;
 line-height:18px;
 }
 @font-face {
-  font-family: 'Imprima';
+  font-family: calibri;
   font-style: normal;
   font-weight: 400;
-  src: local('Imprima'), local('Imprima-Regular'), url(http://themes.googleusercontent.com/static/fonts/imprima/v1/Lw4J4XiH21tNmX0DzARuSA.woff) format('woff');
+  src: local(calibri), local(calibri), url(http://themes.googleusercontent.com/static/fonts/imprima/v1/Lw4J4XiH21tNmX0DzARuSA.woff) format('woff');
 }
 a:link, a:visited {
 text-decoration:none;
@@ -38,10 +38,10 @@ background-color:white;
 /* SIDEBAR TITLE
 ----------------------------------------------- */
 @font-face {
-font-family: 'Pathway Gothic One';
+font-family: calibri;
 font-style: normal;
 font-weight: 400;
-src: local('Pathway Gothic One'), local('PathwayGothicOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/pathwaygothicone/v1/Lqv9ztoTUV8Q0FmQZzPqaBfSZ9PF2sGs8WIylam6T2Y.woff) format('woff');
+src: local(calibri), local(calibri), url(http://themes.googleusercontent.com/static/fonts/pathwaygothicone/v1/Lqv9ztoTUV8Q0FmQZzPqaBfSZ9PF2sGs8WIylam6T2Y.woff) format('woff');
 }
 /* NAVIGATION
 ----------------------------------------------- */
@@ -61,7 +61,7 @@ src: local('Pathway Gothic One'), local('PathwayGothicOne-Regular'), url(http://
   padding:5px;
   width:100px;
   text-decoration:none;
-  font-family:Montserrat;
+  font-family:calibri;
   font-weight: bold;
   font-size:13px;
   text-transform:uppercase;
