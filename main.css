@@ -5,12 +5,6 @@ font-size: 20px;
 color:#000;
 line-height:18px;
 }
-@font-face {
-  font-family: calibri;
-  font-style: normal;
-  font-weight: 400;
-  src: local(calibri), local(calibri), url(http://themes.googleusercontent.com/static/fonts/imprima/v1/Lw4J4XiH21tNmX0DzARuSA.woff) format('woff');
-}
 a:link, a:visited {
 text-decoration:none;
 color: #fff;
@@ -34,14 +28,6 @@ border-bottom: #FEBBD6 2px solid;
 ----------------------------------------------- */
 .back-side{
 background-color:white;
-}
-/* SIDEBAR TITLE
------------------------------------------------ */
-@font-face {
-font-family: calibri;
-font-style: normal;
-font-weight: 400;
-src: local(calibri), local(calibri), url(http://themes.googleusercontent.com/static/fonts/pathwaygothicone/v1/Lqv9ztoTUV8Q0FmQZzPqaBfSZ9PF2sGs8WIylam6T2Y.woff) format('woff');
 }
 /* NAVIGATION
 ----------------------------------------------- */
