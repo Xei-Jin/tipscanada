@@ -1,7 +1,6 @@
 body {
 background-color:white;
 font-family: calibri;
-font-size: 20px;
 color:#000;
 line-height:18px;
 }
@@ -48,7 +47,6 @@ background-color:white;
   width:100px;
   text-decoration:none;
   font-family:calibri;
-  font-weight: bold;
   font-size:13px;
   text-transform:uppercase;
   text-align:center;
